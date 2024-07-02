@@ -1,20 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+/*-------------------------------FONT-------------------------*/
 
-*{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/*-------------------------------UNIVERSAL SELECTOR-------------------------*/
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/*-------------------------------BODY-------------------------*/
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #f4f4f4;
 }
 
-header, main, footer {
+/*-------------------------------HEADER-------------------------*/
+header,
+main,
+footer {
   width: 90%;
   max-width: 1200px;
   margin: 20px 0;
@@ -43,8 +50,9 @@ header nav a {
   font-size: larger;
 }
 
+/*-------------------------------CONTENT-------------------------*/
 .content {
-  background-color: #00AEFF;
+  background-color: #00aeff;
   color: #fff;
   padding: 2rem;
   text-align: center;
@@ -61,6 +69,7 @@ header nav a {
   margin-bottom: 1rem;
 }
 
+/*-------------------------------SOCIAL-------------------------*/
 .social-icons a {
   margin: 0 0.5rem;
   color: #e9ecef;
@@ -71,6 +80,7 @@ header nav a {
   color: #2d414b;
 }
 
+/*-------------------------------PROFILE-------------------------*/
 .profile {
   display: flex;
   justify-content: center;
@@ -90,9 +100,10 @@ header nav a {
   font-size: 20px;
 }
 
+/*-------------------------------GOALS-------------------------*/
 #goals {
   width: 100%;
-  background-color:#1591ca;
+  background-color: #1591ca;
   padding: 2.5rem;
   color: #e9ecef;
   border-radius: 10px;
@@ -117,11 +128,32 @@ header nav a {
   padding-top: 10px;
   margin-bottom: 10px;
 }
-#goals ul li{
+#goals ul li {
   margin-top: 10px;
   font-size: 20px;
 }
 
+/*-------------------------------LINKS-------------------------*/
+
+.links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #00aeff;
+  transition: color 0.3s;
+  font-size: 20px;
+}
+
+.links a:hover {
+  color: #2d414b;
+}
+
+/*-------------------------------FOOTER-------------------------*/
 footer {
   margin-top: 20px;
   display: flex;
@@ -131,27 +163,8 @@ footer {
   background-color: #e9ecef;
   color: #1591ca;
 }
-.links {
-  text-align: center;
-  margin-top: 20px;
-}
 
-
-
-.links a {
-  display: inline-block;
-  margin: 0 10px;
-  text-decoration: none;
-  color: #00AEFF;
-  transition: color 0.3s;
-  font-size: 20px;
-}
-
-.links a:hover {
-  color: #2d414b;
-}
-
-
+/*-------------------------------MEDIA QUERIES-------------------------*/
 @media (max-width: 600px) {
   .profile {
     flex-direction: column;
