@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tech Goal</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">MUTDEV</h2>
+      <nav class="navigation">
+        <a href="#goals">My Goals</a>
+       
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <h2>Hi, I'm <span>Mutiat Adepoju, </span></h2>
+        <h4><span>a </span>Frontend Developer</h4>
+        <div class="social-icons">
+          <a href="https://linkedin.com/in/mutiat-adepoju"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://github.com/Rike12"><i class="fab fa-github"></i></a>
+          <a href="https://twitter.com/mutiat900"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </div>
+      </div>
+
+      <section class="profile">
+        <img
+          src="./asset/rike.jpg"
+          alt="Profile Picture"
+          data-testid="slackProfilePicture"
+        />
+        <div class="info">
+          <p data-testid="slackName">Mutiat Adepoju</p>
+          <p data-testid="slackEmail">mutiat900@gmail.com</p>
+          <p data-testid="currentTimeUTC">
+            Current Time: <span id="current-time"></span>
+          </p>
+          <p data-testid="currentDay">
+            Current Day: <span id="current-day"></span>
+          </p>
+        </div>
+      </section>
+      <section id="goals">
+        <h2>My Tech Goals for the Next 2 Years</h2>
+        <p>
+          As a frontend developer with a year of experience, I have set several
+          ambitious goals to enhance my skills and advance my career. Over the
+          next two years, I aim to:
+        </p>
+        <ul>
+          <li>
+            Master advanced frontend technologies and frameworks (e.g., React,
+            Vue.js).
+          </li>
+          <li>
+            Gain proficiency in backend technologies (e.g., Node.js, Express,
+            MongoDB).
+          </li>
+          <li>
+            Contribute to open-source projects to enhance coding skills and
+            collaborate with the community.
+          </li>
+          <li>
+            Continuously learn and stay updated with the latest trends and
+            advancements in web development.
+          </li>
+          <li>Build a strong portfolio showcasing full-stack projects.</li>
+          <li>
+            Apply for positions at international tech companies to gain global
+            exposure and experience.
+          </li>
+        </ul>
+      </section>
+     
+      <section class="links">
+        
+        <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+          >Scrape Any Web</a
+        >
+      </section>
+     
+    </main>
+    <footer>
+      <p>&copy; 2024 Mutiat Adepoju</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>
