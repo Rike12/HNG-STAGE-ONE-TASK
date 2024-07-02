@@ -23,6 +23,6 @@ You can view the live website here: [Personal website](https://frontend-hng-stag
 - **Useful Links**: A section with useful links to resources like HNG Learn, Keyword Dog, and Scrape Any Web.
 
 ## Contact
-If you have any questions or would like to collaborate, feel free to reach out to me at [email](mutiat900@gmail.com)
+If you have any questions or would like to collaborate, feel free to reach out to me at mutiat900@gmail.com
 
 
